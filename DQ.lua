@@ -1,4 +1,4 @@
-userweb = loadstring(game:HttpGet('https://raw.githubusercontent.com/2016mrpig/RAMlistDQ/main/list.lua'))()
+local userweb = loadstring(game:HttpGet('https://raw.githubusercontent.com/2016mrpig/RAMlistDQ/main/list.lua'))()
 _G.teleportDuringBossOnly = true -- if true, only use smallTeleports when its time for a boss
 _G.doInstakill = true
  
