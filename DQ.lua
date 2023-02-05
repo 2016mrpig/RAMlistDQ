@@ -1,4 +1,3 @@
-local userweb = loadstring(game:HttpGet('https://raw.githubusercontent.com/2016mrpig/RAMlistDQ/main/list.lua'))()
 _G.teleportDuringBossOnly = true -- if true, only use smallTeleports when its time for a boss
 _G.doInstakill = true
  
@@ -45,9 +44,7 @@ _G.host_name = "Name of the host"
 -- Multi-Instance Settings
 _G.multi_roblox = true
 _G.host_name_key = {"rs9f"} -- this account creates parties
-_G.name_key_list = { 
-  userweb
-}
+_G.name_key_list =  loadstring(game:HttpGet('https://raw.githubusercontent.com/2016mrpig/RAMlistDQ/main/list.lua'))()
  
 -- Autosell Settings
 _G.autosell = true
